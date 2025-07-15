@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/72875">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-02-05</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/355">
+        <pgterms:name>Russell, Bertrand</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1872</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1970</pgterms:deathdate>
+        <pgterms:alias>Russell, Bertrand Russell, 3d Earl</pgterms:alias>
+        <pgterms:alias>Russell, Bertrand A. W. (Bertrand Arthur William)</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Bertrand_Russell"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>The A B C of atoms</dcterms:title>
+    <pgterms:marc260>  $aNew York :$bE. P. Dutton &amp; company, $c1923.</pgterms:marc260>
+    <pgterms:marc508>Laura Natal Rodrigues (Images generously made available by Hathi Trust Digital Library.)</pgterms:marc508>
+    <pgterms:marc904>https://catalog.hathitrust.org/Record/008884144</pgterms:marc904>
+    <pgterms:marc905>20240115085610russell</pgterms:marc905>
+    <pgterms:marc906>1923</pgterms:marc906>
+    <pgterms:marc907>1923</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Ncd73477a4b924117b0df525dc88d1ec3">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na4bb0c24c6d146f3abf7b96eaad86dcd">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Atoms</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N5bd8e11d3288409c9fed4603d9d68a4e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>QC</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N6ee9a05a345342d1b8d685791cb580d3">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nd479662399234f75be56a572b6c7b202">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Science - General</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285279</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:19.585092</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd7fb50ad9c714dd38bc8beda2d1ba9a0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/72875/72875-h/72875-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255009</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-05T14:46:55</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N61a575e87039453186066330df1be904">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.epub3.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639279</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:25.992072</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf8d5df25bb7c4802a86558b71600f696">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">636198</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:21.161109</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N07a2dbae467e44e9930cc7fa52c12518">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202582</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:20.473113</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf62d129f32f44ad58cbbfd3bb24694f4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.kf8.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">580141</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:30.610036</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0b883f5f1200453db59ee2ffbbb3f43f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500664</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:25.360094</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne7d420d1d36e41f9bb7e3cdeb4380b1f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/72875.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12499</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:30.759028</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N39dd689c5628448998e6b49c7d4bb089">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/72875/pg72875.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10251</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:20.633085</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8b33301775f64a68bd3662ee1fe3f589">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/72875/pg72875.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2107</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:20.555079</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6f5bb67d2b254567abb8c2cb207849aa">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/72875/pg72875-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/72875"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500787</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-29T03:51:19.817106</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd331fbf27000473f907741730d29864e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value>application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na88a2b93e16e4da1a4dcbbf33be80a81">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Bertrand_Russell">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

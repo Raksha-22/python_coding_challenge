@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/12149">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-04-01</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">488</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/75">
+        <pgterms:name>Beethoven, Ludwig van</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1770</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1827</pgterms:deathdate>
+        <pgterms:alias>Beethoven, Ludwig von</pgterms:alias>
+        <pgterms:alias>Beethoven, L. van (Ludwig)</pgterms:alias>
+        <pgterms:alias>Van Beethoven, Ludwig</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>String Quartet No. 03 in D major Opus 18</dcterms:title>
+    <dcterms:description>Wikipedia page about this book: https://en.wikipedia.org/wiki/String_Quartet_No._3_(Beethoven)</dcterms:description>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N7c1b496e753243ae8fa470ca9759d8ca">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ncc3fb5451b1f45758bbae97af3103b14">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Music</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N40e627c6c2694888b3f91f959204b13c">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>String quartets -- Scores</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N7e03af2b193d4e26b5ceec4fb9e1cfe7">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>M</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N9c3028a412f94ed38206b40e33c43ca0">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Image</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N67ba9e86d3e547a0ba31b7a136b40661">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Music</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-readme.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21274</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-14T18:45:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0d6b212bd4354c10be2bdce4a4630c94">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-pdf/12149-Complete.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520450</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:09</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8edb6bdfb2c4442dbe68435fa094d5cd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-pdf/12149-Viola.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130246</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:10</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N934274752658451b8438ab5abc1cb7bf">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-pdf/12149-ViolinII.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">145490</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N95d87587dd594c0db93afba81bdf1678">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-pdf/12149-ViolinI.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">185603</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:13</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5c9b613498f641f8a74dcb0f50ac93ee">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-pdf/12149-Violoncello.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">111220</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N18537f708de6444ea7f54d1f075f79e5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-pdf.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1038515</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:53:57</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N513f3bf35df34db694155fc14c769940">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5e08318577dd477dae1ded626c29a41b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-mid/12149-complete.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129635</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:08</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na94ae011b4124fb0acfff00599a4d660">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-mid/12149-Viola.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30034</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:10</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N50c885362ab4420680709d9de2ef61cd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-mid/12149-ViolinII.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35259</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:11</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N28dfb1ce27e944ab8a7080f7db440c6f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-mid/12149-ViolinI.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39734</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbe2ccca909214d2a8c1859901614192d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-mid/12149-Violoncello.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24772</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N08c72b9849a14b1eb97934d5ba9cd7ff">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-mid.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93089</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:53:57</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0f33a0683ff04ddaba5899d10fdee905">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N27968cc5944e4335b036c6ba9916034a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-sib/12149-Complete.sib">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81030</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:10</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N345fd19d60a74fdd93822cad24fdc8fe">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-sib/12149-Viola.sib">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34685</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:11</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N26e7083a9fd0466e9865bd7ac5aaed4f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-sib/12149-ViolinII.sib">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36522</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N76244753ceba47c0b14d278d56da5c84">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-sib/12149-ViolinI.sib">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39001</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:13</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9389a56b5c7b4cd798e82024db0710f4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-sib/12149-Violoncello.sib">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32347</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:42:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfec0d588cbc3460091f8cd3f93c9ae11">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-sib.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224610</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:53:57</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd0097e2abfd14bb992954de01106c8f3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne912903bb3794e1ba6ae5b616b37376e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/12149.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26673</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-05T09:05:47.934315</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nadca2edc70394cd7a75ef9b360e2486c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-xml/12149-Complete.xml">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7333748</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-21T20:23:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N192b9359fb504273bacff163346fe4d7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-xml/12149-Viola.xml">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1703142</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-21T20:02:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N969e517a41c04912accd24a0cf5b4f46">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-xml/12149-ViolinII.xml">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1909028</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-21T20:05:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd4b1bed97c5946349871a5d2134ad3aa">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-xml/12149-ViolinI.xml">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2225922</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-21T20:12:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne09ff12b222d4272a4eaa2747db60c15">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-xml/12149-Violoncello.xml">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1498616</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-21T20:08:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf0c21aef567f4a38ae5ca0cfc52375f9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/12149/12149-xml.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278927</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2004-04-25T17:53:58</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0c5865d399354bef8603bea8202f5d80">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1ada2b0a73ce49d78c4fb7e755a9b8a9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/12149/pg12149.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15454</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-05T09:05:47.628317</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd7b336742fba4cb2b50e0f251cd363f9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/12149/pg12149.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/12149"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3541</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-05T09:05:47.343294</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne7c955bd6b4d4a22a3396b9df118b3fd">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Ludwig_van_Beethoven">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

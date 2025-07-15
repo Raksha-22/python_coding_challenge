@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/38079">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-21</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/39236">
+        <pgterms:name>Hardy, G. H. (Godfrey Harold)</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1877</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1947</pgterms:deathdate>
+        <pgterms:alias>Hardy, Godfrey Harold</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/G._H._Hardy"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:marc010>10022755</pgterms:marc010>
+    <dcterms:title>Orders of Infinity: The 'Infinitärcalcül' of Paul Du Bois-Reymond</dcterms:title>
+    <pgterms:marc440>Cambridge Tracts in Mathematics and Mathematical Physics, No. 12</pgterms:marc440>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N6b2f9e726e7a41409893db28ea23df39">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8ca096a046f94c9bb9a6f6eafd16a2cc">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Functions</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N1a4a020ac3844a96b7d4a93d647ed614">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Du Bois-Reymond, Paul, 1831-1889</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N8bfc294c8db145f984e6606bcb103890">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>QA</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N3bfc936a4a3e4cfe9bdfc09b02a43647">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N03f947665a4749b89e1caef43d267e8f">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Mathematics</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nc570ba7d7a004bd89424b574ea57bee6">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Mathematics</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N2d93f6c007dc4c8c859c143b5ff22517">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Science - General</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/38079/38079-pdf.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">839819</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-25T14:11:01</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N18dcbfdadf664bde8a551aa916e024f1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/38079/38079-pdf.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">722153</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-11-25T14:11:01</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4650d2be8df14202a2fbd7af3f1a35f6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2c61e28acb9c4e3d85d9e5a7f5293da8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/38079/38079-t/38079-t.tex">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235008</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-11T17:21:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nebf2483e418a4bc38a561cc56f723c1a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/38079/38079-t.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">143341</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-06-11T17:21:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N60e00b6bbbaa4da7beef3094a08e1410">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.tex</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na79f8c11984b417889fdae5d543927c6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/38079.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10165</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-15T12:59:35.882313</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N809a0d619c264d8db95efe5a26ffae6b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/38079/pg38079.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23369</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-15T12:59:35.799330</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd0ac39f84f674b9c81a86392c11fd9a5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/38079/pg38079.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/38079"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4549</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-15T12:59:35.517350</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N141905cdd58f4ac3a2effc76ef08b64c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/G._H._Hardy">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

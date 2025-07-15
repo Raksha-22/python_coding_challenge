@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/76423">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-01</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/391">
+        <pgterms:name>Freud, Sigmund</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1856</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1939</pgterms:deathdate>
+        <pgterms:alias>Freud, Sigm.</pgterms:alias>
+        <pgterms:alias>Freud, Sigismund Schlomo</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Sigmund_Freud"/>
+        <pgterms:webpage rdf:resource="https://de.wikipedia.org/wiki/Sigmund_Freud"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>Der Witz und seine Beziehung zum Unbewußten</dcterms:title>
+    <pgterms:marc260>  $aLeipzig :$bFranz Deuticke, $c1912.</pgterms:marc260>
+    <pgterms:marc508>Jana Srna and the Online Distributed Proofreading Team at https://www.pgdp.net</pgterms:marc508>
+    <pgterms:marc905>20080826061234freud</pgterms:marc905>
+    <pgterms:marc906>1912</pgterms:marc906>
+    <pgterms:marc907>de</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nfcd42a0b2f314bb799ebb131fe5a9bb9">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">de</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N7572a4fdc3a64733bc405571e95b1871">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/76423/76423-h/76423-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/76423"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">614229</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-01T13:23:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb1262acdc5764a779d0590cade6bb16e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/76423/76423-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/76423"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544679</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-01T13:23:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N354ba217cd7646d08b23e5a84a644c2e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Sigmund_Freud">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://de.wikipedia.org/wiki/Sigmund_Freud">
+    <dcterms:description>de.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

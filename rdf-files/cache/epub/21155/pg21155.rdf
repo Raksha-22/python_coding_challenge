@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/21155">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-04-04</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1269</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/9822">
+        <pgterms:name>Bodenheim, Maxwell</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1893</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1954</pgterms:deathdate>
+        <pgterms:alias>Bodenheimer, Maxwell</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Maxwell_Bodenheim"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>Poet To His Love</dcterms:title>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nd00e1aefaa434a8e896fe4fea2ee4cb3">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N01cd909f762d4bf1ad5d854a0f527d00">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Poetry</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0a268afe994e4983ba3b43f937b62099">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PS</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N6e1305ca1ab74899a893972fb2dddfba">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Sound</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N7dd7ce406dc74f108f07954737d18aff">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Poetry</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/21155-readme.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23575</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-04-18T15:43:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5b195bc0de9440e5acae80dd1a407508">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/21155-index.html">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26871</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-30T11:05:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc3a6a188a90b492680430fa60b7769a2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-01.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232962</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncbfc0484302948d49707bc5e315c6099">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-02.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269850</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9ed16314d3194aecbf3d296b2f9b2d97">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-03.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">335348</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9d8fe91364da442f8e2d1827ae049d81">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-04.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294247</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3dbb3c85e65d41b8ab098ab602c2436f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-05.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312503</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N82335019fd9448c6a31a7fdf5c41545e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-06.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">188219</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6d798e7d70da465e87ec9bb514c7430d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-07.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238603</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N038bddc8259245fca983a2b8eb2040ac">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-08.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296306</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8abade3bb70f48ce81e00edbdc77a3cc">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-09.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299907</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N901731bce41044358392eb98131b0318">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-10.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263250</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0ed019fe34384d6db506f50a76642852">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-11.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272500</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7982c01b6e114244936997acd85da165">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-12.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220965</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1eefe85226b74c1093bbbd20cd2aec2b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/ogg/21155-13.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325039</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N28591f2dff714879878d4074b60034d9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/21155-ogg.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3527031</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-26T22:40:21</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N652e518248fe4f4bad832e07efebf90d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd39848fe120d45ceb2764527949afa01">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-01.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">105204</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2efaa847004948fbbce632a554ad9892">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-02.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162607</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3e3ec2bded004d9cbd9e708d4b70a68e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-03.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199918</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf3d99a99d57840f6aabc6f33b69393e9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-04.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">142493</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Naccc7cdb21a54b15a9addd91616c568b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-05.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">137649</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0f0bec85ee77411c93d4f5ffeb601d6d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-06.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">124925</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc29d43711d41404896858805dea02a28">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-07.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">102818</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfd3fd3a9eaf34f0284934de2a28f329d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-08.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">131736</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na1aa40575f3242008c5ab573a527af67">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-09.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">134916</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N27b97bfbb82a4661a5afda54f6ec9444">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-10.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">148828</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4949adee59fb441fa3b3f0e40aac995e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-11.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156255</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5d7f823039e7452cae7446d3e266e85c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-12.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">132843</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne43cbb3c9e734597ad1b8005b4ab8bc6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/m4b/21155-13.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">177881</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6b08bbe3f7c740dda58fc67d293da4fe">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/21155-m4b.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1519707</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-26T22:40:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N197aef087694477a97292903b9d1eb4b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne476d847b5b74fd8afd6238610d2ff35">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-01.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">625141</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N93bcb4e5dadb42f4aa7e4aa33a593bb6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-02.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">719266</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N70f71a70d1e740f9884cac20014df344">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-03.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">913616</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc929ba37415845eba9a5bcdbb28c64f3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-04.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">813306</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd0a8333813534bc6ab27ebd6b02350cb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-05.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">814852</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N10ae3ce0f32c4158806e2151f7870bd1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-06.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">529804</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb9e67ec12010474dab8182fadf4bed89">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-07.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">606449</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8cd2ee4f475c44679fa3a2ce43d042f1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-08.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">783244</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndb54f3e0165a4c29bed4f7153c03b748">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-09.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">820862</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na7a09a4fab2643feaab44dc3f2813a2a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-10.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">674602</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N576b720a4e9f48afade0117709336dfa">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-11.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">733926</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd2275a3036404b8d92e4b407ed5131ea">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-12.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589313</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9387247314ff49c49986ffed11292f0c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/mp3/21155-13.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">807486</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N05c7093d125f444b91b97ea09c27de61">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/21155-mp3.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9111746</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-26T22:40:21</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd856940dd8b84c179a7b3c939bc46e48">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne5c0392f4cda4ef6944dbdb7c848753a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-01.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30949</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N97ab6d310f854a2885641cd9e2775b13">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-02.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38680</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N254a2aa5d81a4f869996e5e7e199e148">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-03.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44070</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0c6d5c0ac5cf4e0ca23b5848677d265a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-04.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43987</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3d124c5f6847451581d1da341e536bb6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-05.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39194</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5aacccde504d464c8acbbca998750beb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-06.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26658</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N429b040042994566843806808e268f72">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-07.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31018</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4e792ad5af2f44be8ff21afd09470bcb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-08.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37234</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N87b5cf982fac4c96a28302f7fc494312">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-09.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39961</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2078ebe0163c4feebcffc4f9b96f0bfb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-10.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32726</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc2651eeda3244aee907e33e9c87bf8d9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-11.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39111</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9277d3e97e6a441e8947c9a56b2651b9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-12.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30656</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1ad1d54d12774c3983bcf9c3f7b3f60a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/spx/21155-13.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40297</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-03-27T13:24:35</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N325360c9e46346979e667f62c4781d83">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/21155/21155-spx.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">426465</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-26T22:40:21</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4fc0cb1aa0a6418ebe295dc25a6cae85">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N35fec378840540a2a7037612370147b3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/21155.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50814</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-09T05:08:55.217238</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb8dbd61183c14df2badba4dab9def86f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/21155/pg21155.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12628</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-09T05:08:55.101254</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5fdbdd43a2234526bd205e7391eba535">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/21155/pg21155.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/21155"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3403</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-09T05:08:54.830249</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nda79d57683b34fbeae61fb75f228ab33">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Maxwell_Bodenheim">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

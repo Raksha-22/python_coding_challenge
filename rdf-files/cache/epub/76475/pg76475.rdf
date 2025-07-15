@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/76475">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-10</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/57281">
+        <pgterms:name>Szép, Ernő</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1884</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1953</pgterms:deathdate>
+        <pgterms:alias>Szep, Erno</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://hu.wikipedia.org/wiki/Sz%C3%A9p_Ern%C5%91"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>A jázminok illata</dcterms:title>
+    <pgterms:marc260>  $aBékéscsaba :$bTevan, $c1917.</pgterms:marc260>
+    <pgterms:marc508>Albert László from page images generously made available by the Hungarian Electronic Library</pgterms:marc508>
+    <pgterms:marc905>20250703003502szp</pgterms:marc905>
+    <pgterms:marc906>1917</pgterms:marc906>
+    <pgterms:marc907>hu</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N2dd32929e4b54d749eadab9f9f38c3a2">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">hu</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N5259b9127bad4329b2c954263fb348a8">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/76475/76475-h/76475-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/76475"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304733</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-10T18:16:29</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4ff7a514763b46dbb37b9d80fa2925d3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/76475/76475-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/76475"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279283</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-10T18:16:29</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncade746854a94e6f9281fc39e3679926">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://hu.wikipedia.org/wiki/Sz%C3%A9p_Ern%C5%91">
+    <dcterms:description>hu.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

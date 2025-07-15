@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <pgterms:ebook rdf:about="ebooks/40">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-09-01</dcterms:issued>
+    <dcterms:rights>Copyrighted. Read the copyright notice inside this book for details.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/33">
+        <pgterms:name>Kochmer, Jonathan</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>NorthWestNet User Services Internet Resource Guide (NUSIRG)</dcterms:title>
+    <pgterms:marc260>1992</pgterms:marc260>
+    <dcterms:description>PostScript file</dcterms:description>
+    <pgterms:marc520>"NORTHWESTNET USER SERVICES INTERNET RESOURCE GUIDE (NUSIRG)" by Jonathan Kochmer is a technical guide created in the early 1990s. The guide serves as a comprehensive resource for users of the NorthWestNet indexing various internet services, policies, and user support systems tied to the network. It is primarily aimed at individuals affiliated with the NorthWestNet network, including academics, researchers, and members of the education community.  The beginning of the guide lays out essential information on how users can access the NUSIRG for free via the File Transfer Protocol (FTP) or purchase a printed version. It details instructions for using FTP to obtain the guide and mentions the availability of various file formats. Furthermore, it highlights the NorthWestNet's mission, emphasizing education, research, and the expansion of network connectivity in the region through programs, training, and user support. The initial pages provide an overview of the structure and content of the guide, leading into sections that cover acceptable use policies and the operations of the network's services. (This is an automatically generated summary.)</pgterms:marc520>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nd7919bc4f1e741d8a532f4088e4cba8b">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N67e1d0a7f91643c3a43f00282cf0ac74">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Internet</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N91752ccf7bb440cf8ce404effcca28db">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>TK</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N3ccd436f34c542e6b2c8fa3d484dc8c4">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nd21e16dfda6943c78da3eab70172f717">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Computers &amp; Technology</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40/40-readme.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-22T13:58:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N573073c5ebe646c886eacbab08c6c7db">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40/40-pdf.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">719259</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-22T14:31:56</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc71d218c262d46b3b2f5bfbec6ac9cd7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40/40-pdf.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598397</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-22T14:33:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd8c6bd3388aa4e41a58177fbc5971681">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2a53bd79817d4a1c84a11874964632b5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40/40-ps.ps">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1424775</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-21T16:32:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na2f2dceeea3a4ab5930a6a3e00164f18">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/postscript</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/40/40-ps.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">334145</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-12-22T14:00:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb83f2bfdee4540eca7fd5042567e78a3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/postscript</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N78ecb1702dd242eb8f0a2278b518f21b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/40.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10743</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T03:45:31.987292</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nae9994bb184c41369a52a41b05af782a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/40/pg40.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24176</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T03:45:31.898309</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N077919ce9cb6457bac72f7bd69133bfc">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/40/pg40.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/40"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4827</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T03:45:31.614308</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0a8f5a942aba4820a07be125ee8e3b01">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+</rdf:RDF>

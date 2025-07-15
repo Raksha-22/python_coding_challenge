@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+>
+  <pgterms:ebook rdf:about="ebooks/76469">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-09</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/2376">
+        <pgterms:name>Hamsun, Knut</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1859</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</pgterms:deathdate>
+        <pgterms:alias>Gamsun, Knut</pgterms:alias>
+        <pgterms:alias>Hamsund, Knut Pedersen</pgterms:alias>
+        <pgterms:alias>Pedersen, Knut</pgterms:alias>
+        <pgterms:alias>Thode, Knut</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://no.wikipedia.org/wiki/Knut_Hamsun"/>
+        <pgterms:webpage rdf:resource="https://fi.wikipedia.org/wiki/Knut_Hamsun"/>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Knut_Hamsun"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/49131">
+        <pgterms:name>Jalkanen, Huugo</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1888</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1969</pgterms:deathdate>
+        <pgterms:webpage rdf:resource="https://fi.wikipedia.org/wiki/Huugo_Jalkanen"/>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:title>Maan siunaus : $b Romaani</dcterms:title>
+    <pgterms:marc260>  $aHelsinki :$bKust.Oy Kirja, $c1919.</pgterms:marc260>
+    <pgterms:marc508>Juhani Kärkkäinen and Tapio Riikonen</pgterms:marc508>
+    <pgterms:marc905>20250607221711hamsun</pgterms:marc905>
+    <pgterms:marc906>1919</pgterms:marc906>
+    <pgterms:marc907>FI</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N73ffa93248e44aa0b6f269c21090e577">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fi</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nb0896b44acca495cb6fb6d1df14b489d">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/76469/76469-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/76469"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">748443</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-09T16:13:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne48301cc72cc478394ac5a28a02ced90">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://fi.wikipedia.org/wiki/Knut_Hamsun">
+    <dcterms:description>fi.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://no.wikipedia.org/wiki/Knut_Hamsun">
+    <dcterms:description>no.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://fi.wikipedia.org/wiki/Huugo_Jalkanen">
+    <dcterms:description>fi.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Knut_Hamsun">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>

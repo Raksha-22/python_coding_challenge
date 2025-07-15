@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+>
+  <pgterms:ebook rdf:about="ebooks/28845">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-05-01</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1797</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/8024">
+        <pgterms:name>Estes, Rufus</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1857</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Rufus_Estes"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>Good Things to Eat as Suggested by Rufus</dcterms:title>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N14b2b29c5adf4ec7ae42c54589284dd9">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N30dd6e65e3cb4587a79b18672d630f74">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Cooking, American</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na6ded4781c77417ca3689fcffe7dd44a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>TX</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N712b9b8216e543b4979efe7148cf42b1">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Sound</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Ndd0a68a85e09498e8ad9adcc2062115a">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Browsing: Cooking &amp; Drinking</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/28845_readme.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24147</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-16T09:12:07</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N66e86e3c714644ac8a0a68ffe73006d2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/28845_index.html">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29488</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-30T11:02:57</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N73262cfe5a0746dabb4f1aa2d0f4c3f3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_01_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2808431</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:41:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nff9ba9cc87264a5887d96c63aeae38d3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_02_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4939888</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:41:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf4b98911778a414da485373be397f9c8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_03_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2510658</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:41:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndfea355ca48d4b9dbd27d7f878dbdb74">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_04_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8362105</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:42:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9b4008631fe4466b9f87bf548004af4b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_05_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1948207</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:41:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfaf0376062ec4a698094c268e3f596ca">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_06_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7161790</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:42:24</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N70d3438135b9440cb5d09afd179abebe">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_07_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3839874</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:42:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9868e8cb6ca64dce97aaf806ab6c8ed4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_08_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1112310</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:42:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndd027bf24b5e492698f310c79b323b44">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_09_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1265404</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:42:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N00faa5bf2e5943f38833db437e3df743">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_10_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4698766</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:42:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne9cc12bc64fe43b4b570bccca3dcc309">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_11_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9076597</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3afadea82d824183a412b4c2a7218407">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_12_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2780519</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndcd74fb4137b470883a1637a77cb0bac">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_13_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5658149</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N947f21bcc1bf48dd976f2f05ac659c3b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_14_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4218577</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N356faa53da3742b3a2ad589cd6278046">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_15_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6767171</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd1d6328b41fe47cfa3da475a4025cc10">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_16_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1507567</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf59cf83ead0a41219460171042b62db5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_17_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2655011</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3ae93f2487a0402ebcd5a730528c42d0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_18_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5086755</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:43:58</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N24f9f4ff1cbf4a4db1f57c520bb95161">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_19_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2647483</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:44:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3cfb5c5a26414eddb4463364e9a64db9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/ogg/things_to_eat_20_estes_64kb.ogg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9952029</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T13:44:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4500350ddb744a7eb88cfae9fbd0eed7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_01_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1486175</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:20:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na414343d7fb741bb8175bda6bbf1c13c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_02_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2558683</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:21:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N30e98b720fbf45eeb0aa2469793e4c53">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_03_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1363133</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:21:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc312bdee9afd49b881a54aaafe23b60a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_04_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4350157</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:22:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ncc8083d3f7b24fadb46134168bcb1fc2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_05_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1059169</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:22:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N725557cb1542485a84008ebfd012b82b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_06_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3683894</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:22:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1d90a37c358b49409f8eea7bccf9c2a4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_07_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009221</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:22:46</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N57a6a6af6864408291fe188b983f0f65">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_08_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">607848</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:22:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7260e0fa6c874513a205db38757f7d93">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_09_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660836</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:22:56</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5e9b26682ca24b0887a870ad066faf79">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_10_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2528298</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:23:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3d690fa722804a55813d0b5e290433ec">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_11_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4737725</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:23:56</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N567e720e3d7e46e38b060f96de2a1bcc">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_12_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1504742</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:23:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N52c378fdeaec4599b69c2365e803196f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_13_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3015741</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:23:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na2692b655f464706a1559ce908b9d8a4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_14_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178370</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:23:56</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N791c78b0c1f9485e9e5cc912cd3b137c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_15_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3630125</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:24:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N551242589e6341cb80825dc7a00df53c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_16_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">817612</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:24:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0cf5f0182faf4b839a7dcb42db703ce9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_17_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1434192</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:24:12</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N489b822580664d32828d75af3473a939">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_18_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2602592</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:24:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne3fb355770574742a038d9894ef39d7c">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_19_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1376053</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:24:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne9eb02e4a1374804acf846e5132ee897">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/m4b/things_to_eat_20_estes_64kb.m4b">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5228613</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:25:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1a0307e985134d37b54e2e0fd702d8ac">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mp4</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_01_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5670500</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:26</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd23b89b3f99a4eeeacdd08b154b3b5d7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_02_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9772766</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf7bac4d1261046798860bacb36ba77d5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_03_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5195485</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbfbfeac0ec74491bb46262e50fcb1cec">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_04_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16625221</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N881bfe0a7cec433097570a75ce49022e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_05_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4032098</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndd47b310bd5b43f6ad6de92aff64657a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_06_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14076098</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd683fc4ded68455baa8ea0213558194e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_07_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7669812</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndafd6a07600c43539073701e09344ad9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_08_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2310961</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3ca1fe03728b4b7dadc26308eeaec7a1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_09_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2513450</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N620d37950dda4d6483571bf67c049926">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_10_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9653029</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:34</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N304094e40bcb4ebc92222c282c052e5a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_11_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18107504</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N24f39c8d0be64aa2a02b6dac192db01e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_12_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5740506</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2907fea7539b4610ac64a4bb1180e262">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_13_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11519646</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1a0922734b464438b77f06f590890633">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_14_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8317444</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5e194f2815054a9a8468a6ea6d2e00d3">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_15_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13869833</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf3509e491597415f860a0aec1e94fa4e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_16_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3112798</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc94f488b49404037a3fa542ada4e67ab">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_17_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5471147</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9d7a466de7a349979e7d9fa62481c014">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_18_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9940183</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N47bf7182901d465db40048d9f73e0eb8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_19_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5249217</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf3ccf2c9c26d4683b572bee2fe6bd1a6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/mp3/things_to_eat_20_estes_64kb.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19985206</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T12:01:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N16b27d4039a840ad9c2cb97e74348527">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_01_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">887648</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:44:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9321b150df7246479863e23904ac2a81">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_02_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1402647</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:45:10</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nff8e2f79150e4997b5c52647ca946b67">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_03_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">798048</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:45:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N18a4d7dd33224e4a946bfa9e5877a04d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_04_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2457142</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:46:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3776556722064e298a1a18a784aaaae6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_05_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">558258</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:45:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfc4367dfbe4a4605910ab572fb237fa2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_06_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181136</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:46:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7c6e62115bec4e408c70dd0d6e2d6d0a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_07_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1215741</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:46:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc9e8c8908dff47bfbbb02aab1c6b4349">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_08_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304575</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:46:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N845ddccac34541858bd5129592ad5f7f">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_09_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">380127</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:46:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nce089e7c1b8140219ac0d1bee5979390">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_10_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1362236</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:47:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nebbbe011ca91415e948df1c300e34f65">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_11_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2810741</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:48:18</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N543191d72d0045a0a7b4f24f8911d473">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_12_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">774974</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:48:00</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8f41addb83f648cda9cf2e16e759b90d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_13_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1734302</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:48:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N22fc463b70d0434492054bc18b8f6142">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_14_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1240704</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:48:54</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6d91414c96814c73b81249573cfff408">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_15_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2104654</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:49:58</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N683ae7be83294d099928ca43c2866d76">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_16_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460008</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:49:08</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N706190dcaf9d4b0f96a960ec3e82ec60">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_17_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">771662</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:49:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9f0a8afaf2d24762b97294b3f613ab8b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_18_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1487864</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:50:14</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nbe746a55d03946daa34f82bdf9559478">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_19_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">739839</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:50:22</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N884bc85b8c144b4f868ce6e45454f5e5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/28845/spx/things_to_eat_20_estes_64kb.spx">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2813985</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2009-05-14T14:51:50</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nca3bb193246d45348ebed504a4d03d16">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/ogg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/ebooks/28845.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69268</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-12T04:47:55.441483</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f84f1daeb8146ada8eb1cef9d174d27">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/28845/pg28845.cover.medium.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15094</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-12T04:47:55.297476</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb6a5b4a04ec94847b4bdc9709df5838d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/cache/epub/28845/pg28845.cover.small.jpg">
+        <dcterms:isFormatOf rdf:resource="ebooks/28845"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3610</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-12T04:47:55.007508</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc58f818088c84096bba7d414258c56a0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">image/jpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Rufus_Estes">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
